@@ -1,0 +1,22 @@
+import sqlite3
+
+con=sqlite3.connect('JT_Finance.db')
+c=con.cursor()
+c.execute("""create table Finances(
+  Member text,
+  Donation text,
+  Purpose text,
+  Date text
+  
+  )""")
+
+def dataCollector(dataIn):
+  data=[tuple(dataIn)]
+  c.executemany('insert into Finances values(?,?,?,?)',data)
+  print(data)
+
+
+
+
+
+con.commit()

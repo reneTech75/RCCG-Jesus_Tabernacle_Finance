@@ -1,0 +1,2 @@
+this is to hold important remaks from fincance department.
+1. there should be a way to distinguish between donations made by zelle, cash app, and the other platforms, eg checks.

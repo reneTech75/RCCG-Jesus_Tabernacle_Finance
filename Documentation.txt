@@ -1,0 +1,15 @@
+This is a software package written by brother Rene A. and given free of charge to RCCG, Jesus Tabernacle.
+This package contains the following files:
+
+1.the main program file called JTGUI.py
+2.a database module called JTdata.py
+3.a database file called JTdata.db
+4.a text file for the list of members called MemberList.txt
+5.a data logger file called dataLog.txt. This is to document every saved transaction for investigative purposes
+6.a text file called comments.txt whose purpose is to important notes and comments from the finance department.
+
+my exec file for python is located at C:\Users\Fjap\AppData\Local\Programs\Python\Python38-32\python.exe
+
+It is possible that more files and folders will be generated as the program runs. They will all be kept in this package so that any future system administrator or software guardian can find them easily in case of any trouble shooting. While brother Rene A. fellowships at Jesus Tabernacle, he remains available to help with any technical difficulties associated with this package. His contact information is given above.
+
+This sofware is completly standalone, and so it is the responsibility of Jesus Tabernacle to ensure the security of data as well as data lost prevention. it is hightly suggested that Jesus Taberncale routinely backsup the data to an external device such as a flash drive, or a hardrive, etc(after every deployment will be safest, but once a week is recommended). If cloud storage is needed in the future, brother Rene may be available to help with that too.

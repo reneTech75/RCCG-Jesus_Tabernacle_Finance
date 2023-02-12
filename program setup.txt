@@ -1,0 +1,2 @@
+These are the things that the program must first do each time it is started, before running the main bulk of the code.
+1. 
