@@ -2,4 +2,4 @@
 Doris Otulu
 ----------------------------------------
 AMOUNT		PURPOSE		DATE
-YTD Total = $400
+YTD Total = $0

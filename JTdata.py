@@ -9,8 +9,9 @@ def pageSetup(name,path):#this setup page sets up a blank page into the basic su
     stream.write(name+'\n')
     stream.write(40*'-'+'\n')
     stream.write('AMOUNT'+ 2*'\t' + 'PURPOSE' + 2*'\t' + 'DATE' + '\n')
-    stream.write('YTD Total = $')#i have temporarily commented out this one while i figure out how to add amounts from the file
+    stream.write('YTD Total = $')
     #everything above this point works
+    stream.write('0')
     stream.close()
 
     file = open(path)
