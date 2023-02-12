@@ -2,15 +2,21 @@ import os
 import WriteReport
 
 def pageSetup(name,path):#this setup page sets up a blank page into the basic summary style.
+    print('start of test4')
     stream = open(path,'a+')
+    print('test5')
     stream.write(40*'*'+'\n')
     stream.write(name+'\n')
     stream.write(40*'-'+'\n')
     stream.write('AMOUNT'+ 2*'\t' + 'PURPOSE' + 2*'\t' + 'DATE' + '\n')
-    #stream.write('YTD Total = $')#i have temporarily commented out this one while i figure out how to add amounts from the file
-    lines = [line.strip() for line in stream]
+    stream.write('YTD Total = $')#i have temporarily commented out this one while i figure out how to add amounts from the file
+    #everything above this point works
     stream.close()
+
+    file = open(path)
+    lines = [line.strip() for line in file]
     print(lines)
+    file.close()
     return lines
 
 def dataCollector(data):
