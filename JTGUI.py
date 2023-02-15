@@ -1,8 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 import datetime
-import JTdata
-import WriteReport
+import theSummary
 #data=[]#this will be the list that holds member,amount,purpose, method and date
 
 #this function collects data that will be sent to the data base.
@@ -26,8 +25,8 @@ def dataCollector(From='Submit or Save?'):
     file.write(str(data)+'\n')
     file.close()
 
-    JTdata.dataCollector(data)#push data into the respective reports
-
+    
+    theSummary.summary(data[0])#call the summary() function and pass customer name
 # this function closes the add member frame
 def exitFunction(x):
     if x == 'close addMemberFrame':
