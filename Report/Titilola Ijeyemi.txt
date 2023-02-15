@@ -1,29 +1,33 @@
-**************************************************
-Titilola Ijeyemi
---------------------------------------------------
-AMOUNT		PURPOSE			DATE
-123		Offerings		2-12-2023
-123		Offerings		2-12-2023
-123		Offerings		2-12-2023
-321		Offerings		2-12-2023
-129		Offerings		2-12-2023
-390		Offerings		2-12-2023
-567		Offerings		2-12-2023
-345		Offerings		2-12-2023
-45		Offerings		2-12-2023
-300		Offerings		2-13-2023
-12		Offerings		2-13-2023
-345		Offerings		2-13-2023
-45		Offerings		2-13-2023
-45		Offerings		2-13-2023
-45		Offerings		2-13-2023
-78		Offerings		2-13-2023
-789		Offerings		2-13-2023
-100		Offerings		2-13-2023
-23		Offerings		2-13-2023
-1221		Building Fund		2-13-2023
-45		Tithes		2-13-2023
-12		Offerings		2-13-2023
-450		Offerings		2-13-2023
-34		Offerings		2-15-2023
-YTD Total = $5710.0
+**********************************************************************
+RCCG-Jesus Tabernacle.  Titilola Ijeyemi
+**********************************************************************
+AMOUNT				PURPOSE				DATE
+123                           Offerings                     2-12-2023
+123                           Offerings                     2-12-2023
+123                           Offerings                     2-12-2023
+321                           Offerings                     2-12-2023
+129                           Offerings                     2-12-2023
+390                           Offerings                     2-12-2023
+567                           Offerings                     2-12-2023
+345                           Offerings                     2-12-2023
+45                            Offerings                     2-12-2023
+300                           Offerings                     2-13-2023
+12                            Offerings                     2-13-2023
+345                           Offerings                     2-13-2023
+45                            Offerings                     2-13-2023
+45                            Offerings                     2-13-2023
+45                            Offerings                     2-13-2023
+78                            Offerings                     2-13-2023
+789                           Offerings                     2-13-2023
+100                           Offerings                     2-13-2023
+23                            Offerings                     2-13-2023
+1221                          Building Fund                 2-13-2023
+45                            Tithes                        2-13-2023
+12                            Offerings                     2-13-2023
+450                           Offerings                     2-13-2023
+34                            Offerings                     2-15-2023
+345                           Offerings                     2-15-2023
+543                           Offerings                     2-15-2023
+320                           Offerings                     2-15-2023
+543                           Offerings                     2-15-2023
+YTD Total = $7461.0

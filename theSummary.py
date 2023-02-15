@@ -3,13 +3,13 @@ import ast #this is the module that converts stringed list back to list type
 def writeBannar(name):
     path='Report' +'/'+ name +'.'+'txt' #building path variable for the particular customer file
     stream = open(path,'w')#open in write mode so as to wipe file clean at start
-    stream.write(50*'*'+'\n')
+    stream.write(70*'*'+'\n')
     stream.close()
     
     stream = open(path,'a+')
-    stream.write(name+'\n')
-    stream.write(50*'-'+'\n')
-    stream.write('AMOUNT'+ 2*'\t' + 'PURPOSE' + 3*'\t' + 'DATE' + '\n')
+    stream.write('RCCG-Jesus Tabernacle.  '+name+'\n')
+    stream.write(70*'*'+'\n')
+    stream.write('AMOUNT'+ 4*'\t' + 'PURPOSE' + 4*'\t' + 'DATE' + '\n')
     stream.close()
     return path
 
@@ -37,8 +37,8 @@ def summary(name):
     file = open(path,'a')
     for record in transactions:
         total = total + float(record[1])#find the total contribution
-        file.write(str(record[1])+ 2*'\t' + record[3] + 2*'\t' + record[4] + '\n')
-        print(str(record[1])+ 2*'\t' + record[3] + 2*'\t' + record[4] + '\n')
+        file.write(f"{str(record[1]):<25}     {record[3]:<25}     {record[4]}\n")
+        print(f"{str(record[1]):<25}     {record[3]:<25}     {record[4]}\n")
     file.write('YTD Total = $')
     file.write(str(total))
     file.close()
