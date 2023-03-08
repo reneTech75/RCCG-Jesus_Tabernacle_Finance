@@ -30,4 +30,5 @@ AMOUNT				PURPOSE				DATE
 543                           Offerings                     2-15-2023
 320                           Offerings                     2-15-2023
 543                           Offerings                     2-15-2023
-YTD Total = $7461.0
+12                            Offerings                     2-19-2023
+YTD Total = $7473.0

@@ -91,3 +91,5 @@
 ['Titilola Ijeyemi', '543', 'Zelle', 'Offerings', '2-15-2023']
 ['Titilola Ijeyemi', '320', 'Zelle', 'Offerings', '2-15-2023']
 ['Titilola Ijeyemi', '543', 'Zelle', 'Offerings', '2-15-2023']
+['Godwill Samari', '123', 'Zelle', 'Offerings', '2-19-2023']
+['Titilola Ijeyemi', '12', 'Zelle', 'Offerings', '2-19-2023']
