@@ -257,8 +257,26 @@ canvas.pack()
 mainframe = Frame(canvas, bg='#b7cae8')
 mainframe.place(relx=0.01, rely=0.01, relwidth=0.98, relheight=0.98)
 
-dateTitle = Label(mainframe, text=str(g.month)+'-'+str(g.day)+'-'+str(g.year), font=('', 15), bg='#b7cae8', fg='black')
-dateTitle.place(relx=0.78, rely=0.01, relwidth=0.2, relheight=0.05)
+dateTitle = Label(mainframe, text=str(g.month)+'-'+str(g.day)+'-'+str(g.year), font=('', 10), bg='#b7cae8', fg='black')
+dateTitle.place(relx=0.78, rely=0.001, relwidth=0.2, relheight=0.03)
+
+month = ['Jan','Feb','Mar','Apl','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+monthVariable = StringVar()
+monthVariable.set('Jan')
+monthBox = ttk.Combobox(mainframe, textvariable=monthVariable, font=('', 10), background='white', values=month,state='readonly')
+monthBox.place(relx=0.81, rely=0.035, relwidth=0.08, relheight=0.033)
+
+
+
+
+
+
+
+
+
+
+
+
 
 memberLabel = Label(mainframe, text='Select Donor         ', font=('', 15), bg='#b7cae8', fg='black')
 memberLabel.place(relx=0.01, rely=0.01, relwidth=0.32, relheight=0.05)
