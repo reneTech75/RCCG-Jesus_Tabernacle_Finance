@@ -267,6 +267,12 @@ monthBox = ttk.Combobox(mainframe, textvariable=monthVariable, font=('', 10), ba
 monthBox.place(relx=0.81, rely=0.035, relwidth=0.08, relheight=0.033)
 
 
+dayVariable = StringVar()
+dayVariable.set('Jan')
+dayBox = ttk.Combobox(mainframe, textvariable=dayVariable, font=('', 10), background='white', values=month,state='readonly')
+dayBox.place(relx=0.895, rely=0.035, relwidth=0.08, relheight=0.033)
+
+
 
 
 
