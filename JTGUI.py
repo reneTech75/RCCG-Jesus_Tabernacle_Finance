@@ -260,16 +260,49 @@ mainframe.place(relx=0.01, rely=0.01, relwidth=0.98, relheight=0.98)
 dateTitle = Label(mainframe, text=str(g.month)+'-'+str(g.day)+'-'+str(g.year), font=('', 10), bg='#b7cae8', fg='black')
 dateTitle.place(relx=0.78, rely=0.001, relwidth=0.2, relheight=0.03)
 
+#this code block is for the month selction dropdown menu
 month = ['Jan','Feb','Mar','Apl','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 monthVariable = StringVar()
 monthVariable.set('Jan')
 monthBox = ttk.Combobox(mainframe, textvariable=monthVariable, font=('', 10), background='white', values=month,state='readonly')
 monthBox.place(relx=0.81, rely=0.035, relwidth=0.08, relheight=0.033)
 
+#this code block is for the day selection dropdown menu
+#the function below returns a list of days of the month for the selected month
+def returnDays(month):
+   days=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]
+   if month=='Jan':
+      return days + [29,30,31]
+   if month=='Feb':
+      return days
+   if month=='Mar':
+      return days + [29,30,31]
+   if month=='Apr':
+      return days + [29,30]
+   if month=='May':
+      return days + [29,30,31]
+   if month=='Jun':
+      return days + [29,30]
+   if month=='Jul':
+      return days + [29,30,31]
+   if month=='Aug':
+      return days + [29,30,31]
+   if month=='Sep':
+      return days + [29,30]
+   if month=='Oct':
+      return days + [29,30,31]
+   if month=='Nov':
+      return days + [29,30]
+   if month=='Dec':
+      return days + [29,30,31]
 
+monthBox.update
+monthselect= monthBox.get()#this gets the selected month
+
+days=returnDays(monthselect)#this now populates the drop menu for days of the selected month
 dayVariable = StringVar()
-dayVariable.set('Jan')
-dayBox = ttk.Combobox(mainframe, textvariable=dayVariable, font=('', 10), background='white', values=month,state='readonly')
+dayVariable.set(1)
+dayBox = ttk.Combobox(mainframe, textvariable=dayVariable, font=('', 10), background='white', values=days,state='readonly')
 dayBox.place(relx=0.895, rely=0.035, relwidth=0.08, relheight=0.033)
 
 
