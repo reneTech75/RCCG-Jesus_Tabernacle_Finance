@@ -385,4 +385,3 @@ root.mainloop()
 
 # 2. the default Donated Amount, and Purpose are not being shown in the edit form.
 # Thats after Submit Name button is pressed
-
