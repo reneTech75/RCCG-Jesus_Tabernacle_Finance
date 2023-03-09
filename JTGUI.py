@@ -296,7 +296,7 @@ def returnDays(month):
    if month=='Dec':
       return days + [29,30,31]
 
-monthBox.update
+
 monthselect= monthBox.get()#this gets the selected month
 
 days=returnDays(monthselect)#this now populates the drop menu for days of the selected month
